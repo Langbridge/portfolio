@@ -16,7 +16,7 @@
     let pages:Array<PageLinks> = [
         {
             name:"About Me",
-            url:"/about",
+            url:"/#about",
             dropdown:[]
         },
         // {
@@ -26,12 +26,12 @@
         // }, 
         {
             name: "Projects",
-            url:"/projects",
+            url:"/#projects",
             dropdown:[]
         },
         {
             name:"Publications",
-            url:"/playground",
+            url:"/#publications",
             dropdown:[]
         }
     ]

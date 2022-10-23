@@ -7,14 +7,14 @@ export type Project = {
     title: string,
     slug:string,
     featuredImage:Image,
-    tags:[string],
+    tags:string[],
     excerpt:string,
 }
 
 export type Publication = {
     title:string,
     journal:string,
-    authors:[string],
+    authors:string[],
     paper:string,
     code:string,
     citation:string,

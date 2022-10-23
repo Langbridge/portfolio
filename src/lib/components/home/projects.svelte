@@ -1,6 +1,6 @@
 <script lang="ts">
 	import ProjectCard from "../cards/project-card.svelte";
-    import type { Project } from "$lib/data/core_types"
+    import type { Project } from "../../data/core_types"
 
     let project:[Project] = [
         {
@@ -22,7 +22,7 @@
 
 </script>
 
-<div class="self-center max-w-4xl w-full py-24">
+<div id="projects" class="self-center max-w-4xl w-full py-24">
     <h2 class="font-bold text-4xl text-center text-secondary-base pb-8">Projects</h2>
 
     {#each project as data}
