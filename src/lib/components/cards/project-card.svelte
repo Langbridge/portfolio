@@ -13,10 +13,10 @@
 
 
 <article class="grid grid-cols-6 {cardBaseStyle}" in:fly="{{x:-200, delay:400}}" out:fly="{{x:200}}">
-    <a class="col-span-2" href="/projects/{data.slug}">
+    <a class="col-span-2" href="/{data.slug}">
         <img class="md:w-full md:h-full aspect-16/9 object-cover" src={data.featuredImage.src} alt={data.featuredImage.alt}>
     </a>
-    <a href="/posts/{data.slug}" class="flex flex-col justify-center col-span-4 md:mt-0 pt-4 {contentStyle}">
+    <a href="/{data.slug}" class="flex flex-col justify-center col-span-4 md:mt-0 pt-4 {contentStyle}">
         <div class="mb-4">
             <h3 class="md:text-3xl text-2xl font-black capitalize">{data.title}</h3>
             <div class="flex flex-wrap gap-x-4 mb-2">
