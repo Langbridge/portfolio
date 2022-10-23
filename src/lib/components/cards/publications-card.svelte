@@ -6,7 +6,7 @@
 
 </script>
 
-<article class="border-b-[1px] last:border-b-0 py-4 border-slate-400">
+<article class="border-b-[1px] last:border-b-0 py-4 border-slate-300">
     <div class="">
         <h2 class="font-bold text-xl">{data.title}</h2>
         <div class="flex gap-4">

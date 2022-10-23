@@ -58,7 +58,7 @@
 
 <header class="sticky -top-1 ease-out duration-300 translate-y-0 z-50" class:motion-safe:-translate-y-full={offscreen} bind:clientHeight>
     <div class="absolute w-full top-0 flex flex-col justify-center py-4 bg-slate-100 bg-opacity-70 backdrop-blur-md backdrop-saturate-150 z-50">
-        <div class="flex justify-between max-w-3xl w-full self-center">
+        <div class="flex justify-between max-w-4xl w-full self-center">
             <div class="font-bold text-xl">
                 <a href="/">Abi Langbridge</a>
             </div>
