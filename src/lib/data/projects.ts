@@ -6,3 +6,5 @@ import metaData from "./projects.json"
 export const projects:Readable<[Project]> = readable(metaData, function start(_:Subscriber<any>) {
     return function stop() {return null}
 })
+
+export const prerender = true

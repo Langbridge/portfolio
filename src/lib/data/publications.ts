@@ -6,3 +6,5 @@ import metaData from "./publications.json"
 export const publications:Readable<[Publication]> = readable(metaData, function start(_:Subscriber<any>) {
     return function stop() {return null}
 })
+
+export const prerender = true

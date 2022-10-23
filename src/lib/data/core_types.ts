@@ -25,3 +25,5 @@ export type Publication = {
     citation:string,
     project:string,
 }
+
+// export const prerender = true

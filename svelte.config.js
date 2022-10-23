@@ -18,10 +18,13 @@ const config = {
 			pages: "docs",
 			assets:"docs"
 		}),
-		trailingSlash: "always",
+		trailingSlash: "never",
 		paths: {
-			base: "/portfolio",
+			base: "",
 		},
+		prerender:{
+			entries:["*", "/air-pollution-monitoring"]
+		}
 	}
 };
 

@@ -24,3 +24,5 @@ export async function load({ params, fetch }) {
     
     throw error(404, 'Not found');
 }
+
+export const prerender = true

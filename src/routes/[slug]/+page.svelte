@@ -6,7 +6,7 @@
 
     export let data: any;
 
-    console.log(data)
+    // console.log(data)
 
 </script>
 
