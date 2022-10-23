@@ -1,46 +1,7 @@
 <script lang="ts">
     import PublicationsCard from "../cards/publications-card.svelte";
     import type { Publication } from "../../data/core_types"
-
-    let pubs:Publication[] = [
-        {
-            title:"Respiratory Aware Routing for Cyclists",
-            journal:"NeurIPS",
-            authors:["A. Langbridge", "P. Ferraro", "R. Shorten", "P. Diddy"],
-            paper:"https://abilangbridge.com",
-            code:"https://github.com/Langbridge/portfolio",
-            citation:"No thank you :)",
-            project:"Respiratory Aware Routing",
-        },
-        {
-            title:"Respiratory Aware Routing for Cyclists",
-            journal:"NeurIPS",
-            authors:["A. Langbridge", "P. Ferraro", "R. Shorten", "P. Diddy"],
-            paper:"https://abilangbridge.com",
-            code:"https://github.com/Langbridge/portfolio",
-            citation:"No thank you :)",
-            project:"Respiratory Aware Routing",
-        },
-        {
-            title:"Respiratory Aware Routing for Cyclists",
-            journal:"NeurIPS",
-            authors:["A. Langbridge", "P. Ferraro", "R. Shorten", "P. Diddy"],
-            paper:"https://abilangbridge.com",
-            code:"https://github.com/Langbridge/portfolio",
-            citation:"No thank you :)",
-            project:"Respiratory Aware Routing",
-        },
-        {
-            title:"Respiratory Aware Routing for Cyclists",
-            journal:"NeurIPS",
-            authors:["A. Langbridge", "P. Ferraro", "R. Shorten", "P. Diddy"],
-            paper:"https://abilangbridge.com",
-            code:"https://github.com/Langbridge/portfolio",
-            citation:"No thank you :)",
-            project:"Respiratory Aware Routing",
-        }
-    ]
-
+    import { publications } from "../../data/publications"
 
 </script>
 
@@ -49,7 +10,7 @@
         <h2 class="font-bold text-4xl text-center text-secondary-base pb-8">Publications</h2>
 
         <div class="flex flex-col">
-            {#each pubs as data}
+            {#each $publications as data}
                 <PublicationsCard {data}/>
             {/each}
         </div>
