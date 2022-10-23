@@ -23,8 +23,8 @@
             "component":"code",
             "props":{
                 "language":"python",
-                "code":"class Foo(Bar):\n\tdef __init__(self, baz):\n\t\tself.baz = baz\n\t\tself.unfuck_this()",
-                "caption":"This code does precisely fuck all and has no right being here"
+                "code":"class Foo(Bar):\n\tdef __init__(self, baz):\n\t\tself.baz = baz\n\t\tself.unduck_this()",
+                "caption":"This code does precisely duck all and has no right being here"
             }
         },
         {
