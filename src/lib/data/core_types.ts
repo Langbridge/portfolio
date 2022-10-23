@@ -3,6 +3,11 @@ export type Image = {
     alt:string
 }
 
+export type Component = {
+    component:string,
+    props:Record<string, unknown>
+}
+
 export type Project = {
     title: string,
     slug:string,
