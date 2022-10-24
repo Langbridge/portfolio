@@ -9,17 +9,17 @@
         {
             name:"Github",
             href:"https://github.com/Langbridge",
-            icon:"/icons/github.svg"
+            icon:"/portfolio/icons/github.svg"
         },
         {
             name:"LinkedIn",
             href:"https://www.linkedin.com/in/abi-langbridge",
-            icon:"/icons/linkedin.svg"
+            icon:"/portfolio/icons/linkedin.svg"
         },
         {
             name:"Email",
             href:"mailto: abi.langbridge@gmail.com",
-            icon:"/icons/mail.svg"
+            icon:"/portfolio/icons/mail.svg"
         },
     ]
 

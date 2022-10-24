@@ -16,7 +16,7 @@
     let pages:Array<PageLinks> = [
         {
             name:"About Me",
-            url:"/#about",
+            url:"/portfolio/#about",
             dropdown:[]
         },
         // {
@@ -26,12 +26,12 @@
         // }, 
         {
             name: "Projects",
-            url:"/#projects",
+            url:"/portfolio/#projects",
             dropdown:[]
         },
         {
             name:"Publications",
-            url:"/#publications",
+            url:"/portfolio/#publications",
             dropdown:[]
         }
     ]
@@ -60,7 +60,7 @@
     <div class="absolute w-full top-0 flex flex-col justify-center py-4 bg-slate-100 bg-opacity-70 backdrop-blur-md backdrop-saturate-150 z-50">
         <div class="flex justify-between max-w-4xl w-full self-center">
             <div class="font-bold text-xl">
-                <a href="/">Abi Langbridge</a>
+                <a href="/portfolio/">Abi Langbridge</a>
             </div>
             
             <Hamburger {open} onClick={() => open = !open} width="30" />
@@ -69,7 +69,7 @@
                 <ul class="flex gap-8">
                     {#each pages as page}
                     <li>
-                        <a class="{key[1] === page.url.split('/')[1] ? 'font-bold text-slate-600' : ''}" href={page.url}>{page.name}</a>
+                        <a class="{key[1] === page.url.split('/')[2] ? 'font-bold text-slate-600' : ''}" href={page.url}>{page.name}</a>
                         <!-- <p class="">{key[1] === page.url.split("/")[1]}</p> -->
 
                     </li>
