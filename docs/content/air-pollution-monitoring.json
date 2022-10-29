@@ -36,7 +36,7 @@
         {
             "component":"image",
             "props":{
-                "src":"/portfolio/media/bean-np-bg.png",
+                "src":"/portfolio/media/headshot.png",
                 "alt":"Materials used for rending out screw images",
                 "figCaption":"Materials used for rendering out screw images"
             }
