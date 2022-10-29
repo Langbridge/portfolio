@@ -7,7 +7,7 @@
 
 </script>
 
-<figure class="my-4 md:w-4/5 w-full self-center">
+<figure class="my-4 md:w-4/5 w-full self-center flex flex-col items-center justify-center">
     <img {src} {alt}>
     {#if figCaption}
         <figcaption class="text-gray-400 text-sm italic text-center py-4 bottom-line">{figCaption}</figcaption>

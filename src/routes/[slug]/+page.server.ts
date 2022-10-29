@@ -5,15 +5,16 @@ import type { Project } from "../../lib/data/core_types"
  
 /** @type {import('./$types').PageServerLoad} */
 export async function load({ params, fetch }) {
- 
+    
     const projectIndex = get(projects).findIndex((project: Project) => project.slug === params.slug)
+
+    if (projectIndex === -1) {
+        throw error(404, 'Page Not Found')
+    }
+    
     const project = get(projects)[projectIndex]
 
-    // console.log(project)
-
     const projectContent = await fetch(`../content/${params.slug}.json`).then((resp:any) => resp.json())
-    
-    // console.log(projectContent)
 
     if (projectContent) {
         return {

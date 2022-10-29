@@ -11,7 +11,7 @@
 </script>
 
 
-<div class="w-full max-w-4xl self-center py-24 px-4 md:px-16">
+<div class="w-full max-w-4xl self-center py-24 px-4 md:px-16 flex flex-col">
     <ProjectHeader project={data.project}/>
     <Content components={data.projectContent} />
 </div>
