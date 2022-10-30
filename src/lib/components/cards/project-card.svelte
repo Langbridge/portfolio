@@ -24,7 +24,7 @@
                     <p class="flex text-gray-400 text-sm capitalize">{tag.replace("-", " ")}</p>
                 {/each}
             </div>
-            <p class="">{data.excerpt}</p>
+            <p class="mt-4">{data.excerpt}</p>
         </div>
     </a>
 </article>

@@ -12,5 +12,5 @@
 {#if type === "button"}
     <button on:click={(e) => callback(e)} class="py-2 px-8 bg-accent-base rounded font-bold w-max text-white hover:scale-105 duration-150 {style}"><slot/></button>
 {:else}
-    <a class="py-2 px-8 bg-accent-base rounded font-bold w-max text-white hover:scale-105 duration-150 {style}" {href} {target} {rel}><slot/></a>
+    <a class="py-2 px-8 rounded font-bold w-max text-white hover:scale-105 duration-150 {style}" {href} {target} {rel}><slot/></a>
 {/if}

@@ -1,20 +1,11 @@
 [
     {
         "title":"Respiratory Aware Routing for Cyclists",
-        "journal":"NeurIPS",
+        "journal":"Under Review",
         "authors":["A. Langbridge", "P. Ferraro", "R. Shorten"],
-        "paper":"https://abilangbridge.com",
-        "code":"https://github.com/Langbridge/portfolio",
-        "citation":"No thank you :)",
-        "project":"Respiratory Aware Routing"
-    },
-    {
-        "title":"Respiratory Aware Routing for Cyclists with Some Other Words",
-        "journal":"NeurIPS",
-        "authors":["A. Langbridge", "P. Ferraro", "R. Shorten", "P. Diddy", "A. Langbridge", "P. Ferraro", "R. Shorten", "P. Diddy"],
-        "paper":"https://abilangbridge.com",
-        "code":"https://github.com/Langbridge/portfolio",
-        "citation":"No thank you :)",
+        "paper":"https://arxiv.org/abs/2209.03766",
+        "code":"https://github.com/Langbridge/Respiratory-Aware-Routing",
+        "citation":"@misc{https://doi.org/10.48550/arxiv.2209.03766,\ndoi={10.48550/ARXIV.2209.03766},\nurl={https://arxiv.org/abs/2209.03766},\nauthor={Langbridge, Abigail and Ferraro, Pietro and Shorten, Robert},\ntitle={Respiratory Aware Routing for Cyclists},\nyear={2022}",
         "project":"Respiratory Aware Routing"
     }
 ]

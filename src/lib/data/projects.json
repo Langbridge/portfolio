@@ -1,16 +1,44 @@
 [
     {
-        "title":"Respiratory Aware Routing",
-        "slug":"air-pollution-monitoring",
+        "title":"Causal Graph Learning",
+        "slug":"causal-graph-learning",
         "featuredImage": {
-            "src":"/portfolio/media/headshot.png",
+            "src":"/portfolio/media/causal_graph.png",
+            "alt":""
+        },
+        "tags":[
+            "Graph Data",
+            "Machine Learning",
+            "Digital Twins"
+        ],
+        "excerpt":"Utilising statistical techniques to deduce causal relationships between time-series data in order to construct a causal knowledge graph used for downstream machine learning tasks."
+    },
+    {
+        "title":"Data Democratisation in Smart Cities",
+        "slug":"data-democratisation",
+        "featuredImage": {
+            "src":"/portfolio/media/wcc_presentation_wide.png",
+            "alt":""
+        },
+        "tags":[
+            "Big Data",
+            "Smart Cities",
+            "Outreach"
+        ],
+        "excerpt":"Working with Westminster City Council on their SMART City project, presenting my work using air quality data as a use case that is mutually beneficial for providers and consumers of data. Advocated for making urban big data more accessible to citizens, especially those without technical or scientific background."
+    },
+    {
+        "title":"Respiratory Aware Routing",
+        "slug":"respiratory-aware-routing",
+        "featuredImage": {
+            "src":"/portfolio/media/ldn_heatmap.png",
             "alt":""
         },
         "tags":[
             "Machine Learning",
             "Optimisation",
-            "Sharing Economy"
+            "Big Data"
         ],
-        "excerpt":"Proin gravida ex quis leo bibendum eleifend. Ut id ornare massa. Etiam placerat arcu lorem, id aliquam enim tincidunt ac. Phasellus id quam in justo mollis dictum ac et arcu. Donec vestibulum, ligula quis mollis aliquam, ante quam bibendum nisi, sit amet ullamcorper dolor ante pretium leo. Morbi vitae pharetra diam, vel porttitor odio. Donec eleifend dolor nec massa porttitor, vel ultricies risus faucibus. Duis non elit nisl. Aenean a aliquet ligula."
+        "excerpt":"Development of an individualised optimisation algorithm for cycle commuters in urban areas, which uses fitness and air quality data to suggest routes in real-time which are optimal with respect to some pollution budget."
     }
 ]

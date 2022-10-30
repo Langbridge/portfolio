@@ -18,7 +18,7 @@
         <div class="flex gap-4 text-sm pt-2">
             <a class="text-sm font-bold text-white bg-secondary-dark rounded px-4 py-[1px]" href={data.paper} target="_blank" rel="noreferrer">Paper</a>
             <a class="text-sm font-bold text-white bg-secondary-dark rounded px-4 py-[1px]" href={data.code} target="_blank" rel="noreferrer">Code</a>
-            <a class="text-sm font-bold text-white bg-secondary-dark rounded px-4 py-[1px]" href={data.code} target="_blank" rel="noreferrer">Cite</a>
+            <!-- <a class="text-sm font-bold text-white bg-secondary-dark rounded px-4 py-[1px]" href={data.code} target="_blank" rel="noreferrer">Cite</a> -->
         </div>
     </div>
     <div class="">

@@ -10,7 +10,7 @@
 
 <div class="flex flex-col items-center pb-8 gap-2">
     <h1 class="font-bold text-4xl">{project.title}</h1>
-    <div class="flex flex-wrap gap-x-4 mb-4">
+    <div class="flex flex-wrap gap-x-4 mb-8">
         {#each project.tags as tag}
             <p class="flex text-gray-400 text-sm capitalize">{tag.replace("-", " ")}</p>
         {/each}

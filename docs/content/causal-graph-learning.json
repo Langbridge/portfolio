@@ -1,0 +1,10 @@
+{
+    "content":[
+        {
+            "component":"paragraph",
+            "props":{
+                "content":"This page is still a work in progress, please come back soon!"
+            }
+        }
+    ]
+}

@@ -1,4 +1,6 @@
 <script lang="ts">
+    import Icon from "../core/icons.svelte";
+    
     type socialIcon = {
         name:string,
         href:string,
@@ -9,17 +11,17 @@
         {
             name:"Github",
             href:"https://github.com/Langbridge",
-            icon:"/portfolio/icons/github.svg"
+            icon:"github"
         },
         {
             name:"LinkedIn",
             href:"https://www.linkedin.com/in/abi-langbridge",
-            icon:"/portfolio/icons/linkedin.svg"
+            icon:"linkedin"
         },
         {
             name:"Email",
             href:"mailto: abi.langbridge@gmail.com",
-            icon:"/portfolio/icons/mail.svg"
+            icon:"mail"
         },
     ]
 
@@ -31,7 +33,7 @@
         <div class="flex justify-center items-center gap-4 -mt-2">
             {#each icons as icon}
                 <a target="_blank" rel="noreferrer" class="hover:scale-105 duration-150" href={icon.href}>
-                    <img class="w-10 h-10 invert" src={icon.icon} alt={icon.name}>
+                    <Icon type={icon.icon} style="fill-white"/>
                 </a>
             {/each}
         </div>
