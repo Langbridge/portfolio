@@ -16,17 +16,17 @@
     let pages:Array<PageLinks> = [
         {
             name:"About Me",
-            url:"/portfolio/#about",
+            url:"/#about",
             dropdown:[]
         },
         {
             name: "Projects",
-            url:"/portfolio/#projects",
+            url:"/#projects",
             dropdown:[]
         },
         {
             name:"Publications",
-            url:"/portfolio/#publications",
+            url:"/#publications",
             dropdown:[]
         }
     ]
@@ -55,8 +55,8 @@
     <div class="absolute w-full top-0 flex flex-col justify-center py-4 bg-slate-100 bg-opacity-70 backdrop-blur-md backdrop-saturate-150 z-50 px-8 lg:px-0">
         <div class="flex justify-between max-w-4xl w-full self-center">
             <div class="font-bold text-xl">
-                <a href="/portfolio/" class="flex gap-2">
-                    <img class="h-6" src="/portfolio/icons/name_icon.svg" alt="">Abi Langbridge
+                <a href="/" class="flex gap-2">
+                    <img class="h-6" src="/icons/name_icon.svg" alt="">Abi Langbridge
                 </a>
             </div>
             

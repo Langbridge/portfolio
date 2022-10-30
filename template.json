@@ -36,7 +36,7 @@
         {
             "component":"image",
             "props":{
-                "src":"/portfolio/media/headshot.png",
+                "src":"/media/headshot.png",
                 "alt":"Materials used for rending out screw images",
                 "figCaption":"Materials used for rendering out screw images"
             }
@@ -102,7 +102,7 @@
         {
             "component":"note",
             "props":{
-                "icon":"/portfolio/icons/github.svg",
+                "icon":"/icons/github.svg",
                 "iconAlt":"Neural Network Tip",
                 "content":"If you think there is anything important about what Im saying here then you are, most unfortunately, wrong"
             }

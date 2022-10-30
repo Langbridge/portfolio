@@ -20,7 +20,7 @@ const config = {
 		}),
 		trailingSlash: "always",
 		paths: {
-			base: "/portfolio",
+			base: "",
 		},
 		// prerender:{
 		// 	entries:["*", "/air-pollution-monitoring"]

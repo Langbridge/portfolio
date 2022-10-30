@@ -3,7 +3,7 @@
         "title":"Causal Graph Learning",
         "slug":"causal-graph-learning",
         "featuredImage": {
-            "src":"/portfolio/media/causal_graph.png",
+            "src":"/media/causal_graph.png",
             "alt":""
         },
         "tags":[
@@ -17,7 +17,7 @@
         "title":"Data Democratisation in Smart Cities",
         "slug":"data-democratisation",
         "featuredImage": {
-            "src":"/portfolio/media/wcc_presentation_wide.png",
+            "src":"/media/wcc_presentation_wide.png",
             "alt":""
         },
         "tags":[
@@ -31,7 +31,7 @@
         "title":"Respiratory Aware Routing",
         "slug":"respiratory-aware-routing",
         "featuredImage": {
-            "src":"/portfolio/media/ldn_heatmap.png",
+            "src":"/media/ldn_heatmap.png",
             "alt":""
         },
         "tags":[

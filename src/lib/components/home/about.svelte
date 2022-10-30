@@ -43,14 +43,14 @@
         </div>
     </div>
     <div class="md:w-2/5 min-h-96 md:bg-accent-base flex items-center p-8 md:p-0">
-        <img class="object-contain" src="/portfolio/media/headshot.png" alt="">
+        <img class="object-contain" src="/media/headshot.png" alt="">
     </div>
 </div>
 <div id="about" class="bg-accent-pastel w-full flex justify-center py-24 md:px-32 px-8">
     <div class="w-full max-w-4xl flex md:gap-8 gap-4 md:flex-row flex-col">
         <div class="flex flex-col justify-start items-center md:items-start gap-4 md:w-1/3">
             <h2 class="text-4xl font-bold text-black">About Me</h2>
-            <Button style="mt-6 bg-accent-base" type="link" href="/portfolio/documents/ahl_mlcv.pdf">Download CV</Button>
+            <Button style="mt-6 bg-accent-base" type="link" href="/documents/ahl_mlcv.pdf">Download CV</Button>
         </div>
         <div class="flex md:w-2/3 md:mt-0 mt-4">
             <p class="font-light pt-2">I am a driven and excited machine learning scientist who has worked extensively with big spatio-temporal data. My current work involves applying graph machine learning techniques alongside statistical analyses to uncover hidden causal relationships in time series data to improve accuracy and robustness of downstream ML tasks.

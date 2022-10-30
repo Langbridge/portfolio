@@ -7,5 +7,5 @@
     <h1 class="text-2xl text-slate-600 font-light">Looks like we encountered an error</h1>
     <h1 class="text-6xl font-bold -ml-2 pt-0 text-accent-base">{$page.status}: {$page.error.message}</h1>
     <h2 class="text-2xl text-slate-600 font-light py-2">Are any of us really surprised?</h2>
-    <Button href="/portfolio/" style="my-8">Go Home</Button>
+    <Button href="/" style="my-8">Go Home</Button>
 </div>
