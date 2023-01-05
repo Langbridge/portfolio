@@ -1,9 +1,67 @@
 {
     "content":[
         {
+            "component":"heading",
+            "props":{
+                "level": 3,
+                "content":"This page is still a work in progress, please come back soon!"
+            }
+        },
+        {
+            "component":"heading",
+            "props":{
+                "level": 2,
+                "content":"Context"
+            }
+        },
+        {
             "component":"paragraph",
             "props":{
-                "content":"This page is still a work in progress, please come back soon!"
+                "content":"[Correlation v causation]"
+            }
+        },
+        {
+            "component":"paragraph",
+            "props":{
+                "content":"[Structural causal models & their analogy to GNNs]"
+            }
+        },
+        {
+            "component":"paragraph",
+            "props":{
+                "content":"[Limitations of existing causal discovery methods]"
+            }
+        },
+        {
+            "component":"heading",
+            "props":{
+                "level": 2,
+                "content":"Project"
+            }
+        },
+        {
+            "component":"paragraph",
+            "props":{
+                "content":"[Temporal partitioning]"
+            }
+        },
+        {
+            "component":"paragraph",
+            "props":{
+                "content":"[Spatial partitioning]"
+            }
+        },
+        {
+            "component":"heading",
+            "props":{
+                "level": 2,
+                "content":"Outcomes"
+            }
+        },
+        {
+            "component":"paragraph",
+            "props":{
+                "content":"[paper]"
             }
         }
     ]

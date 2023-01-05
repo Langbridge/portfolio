@@ -43,7 +43,8 @@
         </div>
     </div>
     <div class="md:w-2/5 min-h-96 md:bg-accent-base flex items-center p-8 md:p-0">
-        <img class="object-contain" src="/media/headshot.png" alt="">
+        <!-- <img class="object-contain" src="/media/headshot.png" alt=""> -->
+        <img class="object-contain" src="/media/dark_headshot.jpg" alt="">
     </div>
 </div>
 <div id="about" class="bg-accent-pastel w-full flex justify-center py-24 md:px-32 px-8">
@@ -53,7 +54,7 @@
             <Button style="mt-6 bg-accent-base" type="link" href="/documents/ahl_mlcv.pdf">Download CV</Button>
         </div>
         <div class="flex md:w-2/3 md:mt-0 mt-4">
-            <p class="font-light pt-2">I am a driven and excited machine learning scientist who has worked extensively with big spatio-temporal data. My current work involves applying graph machine learning techniques alongside statistical analyses to uncover hidden causal relationships in time series data to improve accuracy and robustness of downstream ML tasks.
+            <p class="font-light pt-2">I am a driven and excited machine learning scientist who has worked extensively with big spatio-temporal data. My current work at Imperial College London in collaboration with IBM Research Dublin involves designing scalable algorithms for leveraging causal discovery techniques to improve the accuracy and robustness of forecasts in complex systems.
             <br><br>
             My masters' project addressed leveraging urban big data to demystify the health impacts of air pollution, and find ways to mitigate them while commuting actively. I was inspired to work in this area by the general lack of access to data amongst the individuals impacted by air pollution, and the overly-scientific discourse surrounding air pollution  which leaves individuals in the dark about the risks they are exposed to. This work culminated in a collaboration with Westminster City Council, working as an advocate for wider accessibility of urban big data for citizens.
             <br><br>
