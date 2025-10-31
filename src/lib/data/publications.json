@@ -1,11 +1,56 @@
 [
-    {
-        "title":"Respiratory Aware Routing for Cyclists",
-        "journal":"Under Review",
-        "authors":["A. Langbridge", "P. Ferraro", "R. Shorten"],
-        "paper":"https://arxiv.org/abs/2209.03766",
-        "code":"https://github.com/Langbridge/Respiratory-Aware-Routing",
-        "citation":"@misc{https://doi.org/10.48550/arxiv.2209.03766,\ndoi={10.48550/ARXIV.2209.03766},\nurl={https://arxiv.org/abs/2209.03766},\nauthor={Langbridge, Abigail and Ferraro, Pietro and Shorten, Robert},\ntitle={Respiratory Aware Routing for Cyclists},\nyear={2022}",
-        "project":"Respiratory Aware Routing"
-    }
+  {
+    "title": "Industrial agents: Automatic deployment of heuristic rules for asset monitoring",
+    "journal": "Under review at AAAI Conference on Artificial Intelligence (2026)",
+    "authors": ["F. Lorenzi", "A. Langbridge", "F. O’Donncha", "J. T. Rayfield", "B. Eck", "S. Rosato"],
+    "paper": "",
+    "code": "",
+    "citation": "@article{lorenzi2026industrial,\nauthor={Lorenzi, Fabio and Langbridge, Abigail and O’Donncha, Fearghal and Rayfield, James T and Eck, Bradley and Rosato, Sal},\ntitle={Industrial agents: Automatic deployment of heuristic rules for asset monitoring},\njournal={AAAI Conference on Artificial Intelligence},\nyear={2026},\nnote={Under review}}",
+    "project": "Industrial Agents"
+  },
+  {
+    "title": "Overcoming representation bias in fairness-aware data repair using optimal transport",
+    "journal": "Communications in Optimization Theory (2025)",
+    "authors": ["A. Langbridge", "A. Quinn", "R. Shorten"],
+    "paper": "https://cot.mathres.org/archives/2118",
+    "code": "",
+    "citation": "@article{langbridge2025overcoming,\nauthor={Langbridge, Abigail and Quinn, Anthony and Shorten, Robert},\ntitle={Overcoming representation bias in fairness-aware data repair using optimal transport},\njournal={Communications in Optimization Theory},\nvolume={48},\nyear={2025},\npages={1--16}}",
+    "project": "Fairness-Aware Data Repair"
+  },
+  {
+    "title": "Agentic AI for Digital Twin",
+    "journal": "Proceedings of the AAAI Conference on Artificial Intelligence (2025)",
+    "authors": ["A. Timms", "A. Langbridge", "A. Antonopoulos", "A. Mygiakis", "E. Voulgari", "F. O’Donncha"],
+    "paper": "https://doi.org/10.1609/aaai.v39i28.35373",
+    "code": "",
+    "citation": "@inproceedings{timms2025agentic,\nauthor={Timms, Alexander and Langbridge, Abigail and Antonopoulos, Antonis and Mygiakis, Antonis and Voulgari, Eleni and O’Donncha, Fearghal},\ntitle={Agentic AI for Digital Twin},\nbooktitle={Proceedings of the AAAI Conference on Artificial Intelligence},\nyear={2025}}",
+    "project": "Agentic AI for Digital Twin"
+  },
+  {
+    "title": "Optimal transport for efficient, unsupervised anomaly detection on industrial data",
+    "journal": "Proceedings of the IEEE International Conference on Big Data (2024)",
+    "authors": ["A. Langbridge", "F. O’Donncha", "J. T. Rayfield", "B. Eck"],
+    "paper": "https://ieeexplore.ieee.org/document/10825081",
+    "code": "",
+    "citation": "@inproceedings{langbridge2024otanomaly,\nauthor={Langbridge, Abigail and O’Donncha, Fearghal and Rayfield, James T and Eck, Bradley},\ntitle={Optimal transport for efficient, unsupervised anomaly detection on industrial data},\nbooktitle={Proceedings of the IEEE International Conference on Big Data},\nyear={2024}}",
+    "project": "Optimal Transport for Anomaly Detection"
+  },
+  {
+    "title": "Agentic anomaly detection for shipping",
+    "journal": "Proceedings of the NeurIPS 2024 Workshop on Open-World Agents (2024)",
+    "authors": ["A. Timms", "A. Langbridge", "F. O’Donncha"],
+    "paper": "https://openreview.net/pdf?id=mmBrJRoppK",
+    "code": "",
+    "citation": "@inproceedings{timms2024agentic,\nauthor={Timms, Alexander and Langbridge, Abigail and O’Donncha, Fearghal},\ntitle={Agentic anomaly detection for shipping},\nbooktitle={Proceedings of the NeurIPS 2024 Workshop on Open-World Agents},\nyear={2024}}",
+    "project": "Agentic Anomaly Detection"
+  },
+  {
+    "title": "Optimal transport for fairness: archival data repair using small research data sets",
+    "journal": "Proceedings of the IEEE 40th International Conference on Data Engineering Workshops (2024)",
+    "authors": ["A. Langbridge", "A. Quinn", "R. Shorten"],
+    "paper": "https://ieeexplore.ieee.org/document/10555080",
+    "code": "",
+    "citation": "@inproceedings{langbridge2024fairness,\nauthor={Langbridge, Abigail and Quinn, Anthony and Shorten, Robert},\ntitle={Optimal transport for fairness: archival data repair using small research data sets},\nbooktitle={Proceedings of the IEEE 40th International Conference on Data Engineering Workshops},\nyear={2024}}",
+    "project": "Fairness-Aware Data Repair"
+  }
 ]

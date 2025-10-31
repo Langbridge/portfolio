@@ -4,21 +4,44 @@
 
     export let data:Publication;
 
+    const isAvailable = (link: string | undefined) => link && link.trim().length > 0;
 </script>
 
 <article class="border-b-[1px] last:border-b-0 py-4 border-slate-300 mx-8 md:mx-0">
     <div class="">
         <h2 class="font-bold text-xl">{data.title}</h2>
         <div class="flex flex-wrap gap-y-0 gap-x-4">
-            <p class="text-sm italic">{data.journal}:</p>
+            <p class="text-sm italic">{data.journal}</p>
             {#each data.authors as tag}
                 <p class="text-sm capitalize {tag === 'A. Langbridge' ? 'text-black' : 'text-gray-400'}">{tag.replace("-", " ")}</p>
             {/each}
         </div>
         <div class="flex gap-4 text-sm pt-2">
-            <a class="text-sm font-bold text-white bg-secondary-dark rounded px-4 py-[1px] hover:scale-105 duration-150" href={data.paper} target="_blank" rel="noreferrer">Paper</a>
-            <a class="text-sm font-bold text-white bg-secondary-dark rounded px-4 py-[1px] hover:scale-105 duration-150" href={data.code} target="_blank" rel="noreferrer">Code</a>
-            <!-- <a class="text-sm font-bold text-white bg-secondary-dark rounded px-4 py-[1px]" href={data.code} target="_blank" rel="noreferrer">Cite</a> -->
+            <!-- Paper button -->
+            <a
+                class="text-sm font-bold rounded px-4 py-[1px] duration-150
+                    {isAvailable(data.paper)
+                        ? 'bg-secondary-dark text-white hover:scale-105'
+                        : 'bg-gray-300 text-gray-500 cursor-not-allowed'}"
+                href={isAvailable(data.paper) ? data.paper : undefined}
+                target="_blank"
+                rel="noreferrer"
+                aria-disabled={!isAvailable(data.paper)}>
+                Paper
+            </a>
+
+            <!-- Code button -->
+            <a
+                class="text-sm font-bold rounded px-4 py-[1px] duration-150
+                    {isAvailable(data.code)
+                        ? 'bg-secondary-dark text-white hover:scale-105'
+                        : 'bg-gray-300 text-gray-500 cursor-not-allowed'}"
+                href={isAvailable(data.code) ? data.code : undefined}
+                target="_blank"
+                rel="noreferrer"
+                aria-disabled={!isAvailable(data.code)}>
+                Code
+            </a>
         </div>
     </div>
     <div class="">

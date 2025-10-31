@@ -1,44 +1,58 @@
 [
-    {
-        "title":"Causal Graph Learning",
-        "slug":"causal-graph-learning",
-        "featuredImage": {
-            "src":"/media/causal_graph.png",
-            "alt":""
-        },
-        "tags":[
-            "Graph Data",
-            "Machine Learning",
-            "Digital Twins"
-        ],
-        "excerpt":"Utilising statistical techniques to deduce causal relationships between time-series data in order to construct a causal knowledge graph used for downstream machine learning tasks."
+  {
+    "title": "Constrained Optimal Transport for Semi-Supervised Domain Adaptation",
+    "slug": "constrained-ot",
+    "featuredImage": {
+      "src": "media/example-T.png",
+      "alt": "Abstract illustration of optimal transport flows"
     },
-    {
-        "title":"Data Democratisation in Smart Cities",
-        "slug":"data-democratisation",
-        "featuredImage": {
-            "src":"/media/wcc_presentation_wide.png",
-            "alt":""
-        },
-        "tags":[
-            "Big Data",
-            "Smart Cities",
-            "Outreach"
-        ],
-        "excerpt":"Working with Westminster City Council on their SMART City project, presenting my work using air quality data as a use case that is mutually beneficial for providers and consumers of data. Advocated for making urban big data more accessible to citizens, especially those without technical or scientific background."
+    "tags": ["Optimal Transport", "Domain Adaptation", "Resource Sharing"],
+    "excerpt": "Developed and tested constrained optimal transport algorithms for semi-supervised domain adaptation and leveraging flexibility in resource allocation.",
+    "links": [
+      {
+        "label": "Paper (Under Review)",
+        "url": "",
+        "type": "secondary"
+      }
+    ]
+  },
+  {
+    "title": "Optimal Transport for Industrial Data: Anomaly Detection and Variable Matching",
+    "slug": "ot-industrial-anomaly-detection",
+    "featuredImage": {
+      "src": "media/bigdata.jpeg",
+      "alt": "Abi presenting at IEEE Big Data 2024"
     },
-    {
-        "title":"Respiratory Aware Routing",
-        "slug":"respiratory-aware-routing",
-        "featuredImage": {
-            "src":"/media/ldn_heatmap.png",
-            "alt":""
-        },
-        "tags":[
-            "Machine Learning",
-            "Optimisation",
-            "Big Data"
-        ],
-        "excerpt":"Development of an individualised optimisation algorithm for cycle commuters in urban areas, which uses fitness and air quality data to suggest routes in real-time which are optimal with respect to some pollution budget."
-    }
+    "tags": ["Optimal Transport", "Anomaly Detection", "Industrial Data", "Agentic Tool Usage"],
+    "excerpt": "Applied optimal transport methods to industrial datasets for efficient unsupervised anomaly detection, and for variable matching in LM-coding tasks where structured taxonomies are unavailable.",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://ieeexplore.ieee.org/document/10825081",
+        "type": "primary"
+      },
+      {
+        "label": "Paper (Under Review)",
+        "url": "",
+        "type": "secondary"
+      }
+    ]
+  },
+  {
+  "title": "Breaking Societal Unfairness through Barycentric Correction",
+  "slug": "ot-fairness",
+  "featuredImage": {
+      "src": "media/societal-unfairness.png",
+      "alt": "Graph showing how societal biases can impact predictions."
+  },
+  "tags": ["Optimal Transport", "Algorithmic Fairness", "Machine Learning"],
+  "excerpt": "Developed an algorithm for correcting societal unfairness in data through correcting for biases conditional on so-called 'explanatory variables' such as access to education.",
+  "links": [
+      {
+      "label": "Paper",
+      "url": "https://cot.mathres.org/archives/2118",
+      "type": "primary"
+      }
+  ]
+  }
 ]
