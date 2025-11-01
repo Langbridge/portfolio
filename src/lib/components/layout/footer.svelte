@@ -37,7 +37,7 @@
                 </a>
             {/each}
         </div>
-        <p class="text-center">Copyright Abi Langbridge 2022</p>
-        <p class="text-center">Built with &lt;3 by Chris Vail</p>
+        <p class="text-center">Copyright Abi Langbridge 2025</p>
+        <!-- <p class="text-center">Built with &lt;3 by Chris Vail</p> -->
     </div>
 </footer>
